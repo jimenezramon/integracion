@@ -1,5 +1,6 @@
+import React from 'react'
 import Card from '../card/Card';
-
+import styles from './Cards.module.css';
 export default function Cards({ characters }) {
 
  
@@ -12,9 +13,8 @@ export default function Cards({ characters }) {
       origin={origin.name}
       image={image}
     />);
-
-  return <div>
-
+//className={styles.divCards}
+  return <div className={styles.divCards}>
     {vcard}
   </div>;
 }
