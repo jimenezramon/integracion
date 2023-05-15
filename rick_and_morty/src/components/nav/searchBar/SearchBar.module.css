@@ -1,14 +1,14 @@
 .divSearchMain{
     text-align: right;
-    width: 95%;   
+    width: 100%;   
  }
- 
+
 .divSearch{
     display: flex;
     background-color: rgb(215, 212, 209);
     text-align: right;
     padding: 7px 7px 7px 7px;
-    width: 40%;
+    width: 30%;
     float: right;
     justify-content: space-around;
 }
