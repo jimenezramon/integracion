@@ -1,0 +1,36 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      height: 80%;
+      background-color: #a5c1f8;    
+      margin: 5px;
+      border-color: aqua;
+}
+.textonombre {
+  display: flex;
+    font-size: 1.5em;
+    text-align: center;
+    
+ 
+    background-color: rgba(245, 237, 7, 0.889);
+    border-radius: 10px;
+    padding: auto;
+  }
+  .imgCard {
+    width: 100%;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  .divImage{
+    position: relative;
+    display: inline-block;
+    height: 70%;
+    border-radius: 10px;
+    padding-right: 5%;
+  }

@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.containerleft{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color: rgba(2, 1, 16, 0.8);
+}
+.containerright{
+    display: flex;
+    width: 50%;        
+    justify-content: center;
+    align-items: center;
+}
+.textonombre {
+    font-size: 4em;
+    text-align: center;    
+    top: 20%;    
+    color: rgba(238, 237, 216, 0.889);
+    border-radius: 10px;
+    padding: auto;
+  }
+  .textopropiedades {
+    font-size: 2em;
+    text-align: center;
+    
+    color: rgba(250, 250, 247, 0.889);
+    border-radius: 10px;
+    padding: auto;
+  }
+  .imgCard {
+    display: flex;
+    
+    text-align: center;
+    width: 60%;    
+
+    
+    margin: 5px;
+    border-radius: 50%;
+  }
+ 
+

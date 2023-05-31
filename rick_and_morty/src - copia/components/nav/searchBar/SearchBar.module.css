@@ -1,0 +1,29 @@
+.divSearchMain{
+    text-align: right;
+    width: 100%;   
+ }
+
+.divSearch{
+    display: flex;
+    background-color: rgb(215, 212, 209);
+    text-align: right;
+    padding: 7px 7px 7px 7px;
+    width: 30%;
+    float: right;
+    justify-content: space-around;
+}
+.divInput{
+    padding: 2px;
+    border-color: antiquewhite;
+    border-radius: 6px;
+    color: darkgray;
+    width: 300px;
+}
+.divButton{
+    float: right;
+    background-color: rgb(226, 233, 14);
+    border-radius: 8px;
+    border-color: rgb(238, 231, 10);
+    padding: 5px 5px 5px 5px;
+    margin: 3px 3px 3px 3px;
+}

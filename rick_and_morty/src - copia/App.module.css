@@ -1,0 +1,9 @@
+.divApp {
+   display: flex;
+   flex-direction: column;
+   background-image: url("./img/fondo2.jpg");
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+ }
+

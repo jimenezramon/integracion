@@ -1,6 +1,22 @@
 .divSearchMain{
+    display: flex;
     background-color: darkgrey;
     text-align: right;
     width: 100%;   
+    justify-content:space-around
  }
+ .button{
+    background-color:deeppink;
+    border-radius: 5px;
+    padding: 0.5em;
+ }
+ .button:hover{
+    background-color:rgb(43, 33, 109);
+    color: azure;
+ }
+ .divSearchMain .active {
+
+    background-color: green;
+    
+    }
  
